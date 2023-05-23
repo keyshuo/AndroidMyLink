@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <CheckBox
+        android:id="@+id/ck_music"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/btn_music"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="背景音乐切换"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/sp_music_opt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_shape"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UI套件切换"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/sp_UI_opt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UI套件切换"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/sp_background_opt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dropdown"/>
+
+</LinearLayout>
